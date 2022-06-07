@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+
+import SignUpForm from './component/form/SignUpForm';
+// ctrl+ space
+//import MovieSearchApp from './component/form/MovieSearchApp';
+// import Clock from './component/clock/Clock';
+// import Counter from './component/count/Counter';
+// import Photo from './component/Photos/Photo';
+/*import Game from './component/tictactoe/Game';*/
+//import HackerkNews from './component/hackerNew/HackerNews'
+//import HackerNewWithReducer from './component/hackerNew/HackerNewWithReducer'
+//import Input from './component/input/Input';
+//import TextAreaAutoResize from './component/input/TextAreaAutoResize';
+//import Dropdown from './component/ref/Dropdown';
+// import Blog from './component/ref/Blog';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div>
+      <div>
+        {/* <Photo></Photo> */}
+        {/*<Game></Game>*/}
+        {/* <Counter></Counter> */}
+        {/* <HackerkNews></HackerkNews> */}
+        {/* <HackerNewWithReducer></HackerNewWithReducer> */}
+        {/* <Clock></Clock> */}
+        {/* <Input></Input> */}
+        {/* <TextAreaAutoResize></TextAreaAutoResize> */}
+        {/* <div className='p-5'>
+            <Dropdown></Dropdown>
+        </div> */}
+        {/* <Blog></Blog> */}
+        {/* <MovieSearchApp></MovieSearchApp> */}
+        <SignUpForm></SignUpForm>
+
+      </div>
     </div>
   );
 }
+
+
 
 export default App;
